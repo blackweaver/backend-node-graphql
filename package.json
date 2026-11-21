@@ -1,18 +1,18 @@
 {
-  "name": "nodejs-complete-guide",
+  "name": "Backend - Node.js - GraphQL - MongoDB - Socket.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend CRUD with JWT authentication JWT and GraphQL form item managment and image upload with Socket.io",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/udemy-course-nodejs-complete"
+    "url": "https://github.com/blackweaver/backend-node-graphql.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Ricardo Castillo",
+  "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
